@@ -230,6 +230,8 @@ let carbon_footprint _req = Dream.html (Ocamlorg_frontend.carbon_footprint ())
 
 let privacy _req = Dream.html (Ocamlorg_frontend.privacy ())
 
+let playground _req = Dream.html (Ocamlorg_frontend.playground ())
+
 let terms _req = Dream.html (Ocamlorg_frontend.terms ())
 
 let papers req =

@@ -26,6 +26,8 @@ let carbon_footprint = "/carbonfootprint"
 
 let privacy = "/privacy"
 
+let playground = "/playground"
+
 let terms = "/terms"
 
 let tutorials = "/tutorials"

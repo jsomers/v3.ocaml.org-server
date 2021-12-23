@@ -105,6 +105,8 @@ let carbon_footprint () = Carbon_footprint.render ()
 
 let privacy () = Privacy.render ()
 
+let playground () = Playground.render ()
+
 let terms () = Terms.render ()
 
 let not_found () = Not_found.render ()

@@ -61,6 +61,8 @@ let carbon_footprint = "/carbon-footprint"
 
 let privacy = "/privacy"
 
+let playground = "/playground"
+
 let terms = "/terms"
 
 let papers = "/papers"
