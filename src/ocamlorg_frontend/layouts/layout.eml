@@ -46,7 +46,7 @@ inner =
 <body x-data="{ open: false, sidebar:false, showOnMobile:false,sidebar:window.innerWidth > 480}"
   class="bg-global-default" @resize.window="sidebar = window.innerWidth > 767">
 <% if playground then ( %>
-<header class="h-20 flex items-center header-black rounded-t-3xl">
+<header class="h-20 flex items-center header-black">
 
     <div class="container-fluid header flex justify-between items-center">
       <div class="space-x-8 flex items-center">
@@ -323,6 +323,8 @@ inner =
   <main>
     <%s! inner %>
   </main>
+  <% if playground then ( %>
+  <% ) else ( %>
   <footer class="lg:py-28 py-14">
     <div class="container-fluid">
       <div class="flex justify-between flex-wrap space-y-16 xl:space-y-0">
@@ -404,6 +406,7 @@ inner =
       </div>
     </div>
   </footer>
+  <% ); %>
 </body>
 
 </html>
