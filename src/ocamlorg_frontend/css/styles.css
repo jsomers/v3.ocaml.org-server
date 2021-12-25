@@ -8,6 +8,8 @@
 @import 'partials/tags.css';
 @import 'partials/card.css';
 @import 'partials/shadows.css';
+@import 'partials/codemirror.css';
+@import 'partials/lesser-dark.css';
 
 @import 'pages/industrial-users.css';
 
